@@ -18,10 +18,15 @@ Para executar o sistema localmente, siga as instruções abaixo:
 
 ### 4. Configure as variáveis de seu ambiente no .env:
 PORT=3000
+
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=
+
 DB_NAME=petshop_db
+
 JWT_SECRET=secret
 
 ### 5. Inicialize o servidor: npm run dev
