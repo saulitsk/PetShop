@@ -34,3 +34,8 @@ JWT_SECRET=secret
 
 
 ## Sistema em Funcionamento: 
+
+### Tela de Agendamento
+img/Captura de tela 2025-04-22 204648.png
+
+###
