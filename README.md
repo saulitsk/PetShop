@@ -35,7 +35,14 @@ JWT_SECRET=secret
 
 ## Sistema em Funcionamento: 
 
-### Tela de Agendamento
+### Tela de Agendamentos
 <img src="img/Captura de tela 2025-04-22 204648.png"/>
 
-###
+### Tela de Visualização de Agendamentos
+<img src="img/Captura de tela 2025-04-22 204648.png"/>
+
+### Tela de Alteração de Agendamentos
+<img src="img/Captura de tela 2025-04-22 204648.png"/>
+
+### Tela de Exclusão de Agendamentos
+<img src="img/Captura de tela 2025-04-22 204648.png"/>
