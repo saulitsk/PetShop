@@ -12,12 +12,9 @@ Para executar o sistema localmente, siga as instruções abaixo:
 
 ### 1. Clone este repositório
 
+### 2. Navegue até a pasta do projeto: cd backend
 
-### 2. Navegue até a pasta do projeto: **cd backend**
-
-
-### 3. Instale as dependências: **npm install**
-
+### 3. Instale as dependências: npm install
 
 ### 4. Configure as variáveis de seu ambiente no .env:
 
@@ -33,8 +30,7 @@ DB_NAME=petshop_db
 
 JWT_SECRET=secret
 
-
-### 5. Inicialize o servidor: **npm run dev**
+### 5. Inicialize o servidor: npm run dev
 
 
 ## Sistema em Funcionamento: 
