@@ -39,7 +39,7 @@ JWT_SECRET=secret
 <img src="img/Captura de tela 2025-04-22 204648.png"/>
 
 ### Tela de Visualização de Agendamentos
-<img src="img/Captura de tela 2025-04-22 204648.png"/>
+<img src="img/Captura de tela 2025-04-22 204741.png"/>
 
 ### Tela de Alteração de Agendamentos
 <img src="img/Captura de tela 2025-04-22 204648.png"/>
