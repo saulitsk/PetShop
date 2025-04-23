@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - PetShop</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="agendamento.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Petshop AuMiau</h1>
+        </div>
+        <div class="actions">
+            <button id="meusAgendamentosButton">Meus Agendamentos</button>
+            <button id="sairButton">SAIR</button>
+        </div>
+    </header>
+
+    <main class="agendamento-container">
+        <h2>Agendar Banho</h2>
+        <form id="form-agendamento">
+            <label for="petName">Nome do Pet</label>
+            <input type="text" id="petName" required>
+
+            <label for="animalType">Tipo de Animal</label>
+            <input type="text" id="animalType" required>
+
+            <label for="breed">Raça</label>
+            <input type="text" id="breed" required>
+
+            <label for="date">Data</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Horário</label>
+            <input type="time" id="time" required>
+
+            <label for="notes">Observações</label>
+            <textarea id="notes"></textarea>
+
+            <label for="petImage">Imagem do Pet</label>
+            <input type="file" id="petImage" accept="image/*">
+
+            <button type="submit">Agendar</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Petshop AuMiau</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', serif;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.header {
+    background-color: rgb(42,211,111);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions #agendarButton,
+.actions #sairButton {
+    background-color: rgb(42,211,111);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.actions #agendarButton:hover,
+.actions #sairButton:hover {
+    background-color: rgb(45,211,111);
+}
+
+.agendamentos-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.agendamentos-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.agendamentos-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.agendamento-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+.agendamento-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.agendamento-item p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.agendamento-item .alterarButton {
+    background-color: rgb(42,211,111);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.agendamento-item .alterarButton:hover {
+    background-color: rgb(45,211,111);
+}
+
+.agendamento-item .excluirButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.agendamento-item .excluirButton:hover {
+    background-color: darkred;
+}
+
+.footer {
+    background-color: rgb(45,211,111);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: auto;
+}

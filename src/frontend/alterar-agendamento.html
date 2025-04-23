@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alterar Agendamento - PetShop</title>
+  <link rel="stylesheet" href="alterar-agendamento.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <h1>Petshop AuMiau</h1>
+    </div>
+    <div class="actions">
+      <button id="meusAgendamentosButton">Meus Agendamentos</button>
+      <button id="agendarButton">AGENDAR</button>
+      <button id="sairButton">SAIR</button>
+    </div>
+  </header>
+
+  <main class="alterar-container">
+    <h2>Alterar Agendamento</h2>
+    <form id="alterarForm">
+      <label for="petName">Nome do Pet</label>
+      <input type="text" id="petName" required>
+
+      <label for="animalType">Tipo de Animal</label>
+      <input type="text" id="animalType" required>
+
+      <label for="breed">Raça</label>
+      <input type="text" id="breed" required>
+
+      <label for="date">Data</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Horário</label>
+      <input type="time" id="time" required>
+
+      <label for="notes">Observações</label>
+      <textarea id="notes"></textarea>
+
+      <button type="submit">Salvar Alterações</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Petshop AuMiau</p>
+  </footer>
+
+  <script src="alterar-agendamento.js"></script>
+</body>
+</html>
