@@ -1,0 +1,22 @@
+CREATE DATABASE petshop_db;
+USE petshop_db;
+
+CREATE TABLE usuarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255) UNIQUE NOT NULL,
+  senha VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE agendamentos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome_pet VARCHAR(255) NOT NULL,
+  tipo_animal VARCHAR(255) NOT NULL,
+  raca VARCHAR(255) NOT NULL,
+  data DATE NOT NULL,
+  horario TIME NOT NULL,
+  imagem VARCHAR(255)
+);
+
+SHOW TABLES;
+SELECT * FROM usuarios;
+SELECT * FROM agendamentos
